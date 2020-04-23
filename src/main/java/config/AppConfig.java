@@ -19,6 +19,7 @@ import java.util.Properties;
  */
 @Configuration
 @EnableTransactionManagement
+@EnableWebMvc
 @ComponentScan({"controller", "service"})
 public class AppConfig {
 //
